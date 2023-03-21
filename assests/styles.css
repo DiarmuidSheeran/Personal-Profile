@@ -94,10 +94,8 @@ a {
 
 #linkedin {
     width: 33%;
-    margin-top: 250px;
+    margin-top: 210px;
     text-transform: uppercase;
-
-
 }
 
 #linkedin h1 {
@@ -108,11 +106,14 @@ a {
     font-weight: bold;
 }
 
-#about {
-    width: 33%;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+#linkedin:hover {
+    transition: width 2s, height 4s;
+    width: 50%;
+    height: 50%;
+    border: solid white 2px;
+    border-radius: 5%;
+    background-color: orange;
+    font-size: 100;
 }
 
 #portrait {
@@ -127,7 +128,7 @@ a {
 
 #github {
     width: 33%;
-    margin-top: 250px; 
+    margin-top: 210px; 
     text-transform: uppercase;
 }
 
@@ -137,4 +138,14 @@ a {
 
 #github p {
     font-weight: bold;
+}
+
+#github:hover {
+    transition: width 2s, height 4s;
+    width: 50%;
+    height: 50%;
+    border: solid white 2px;
+    border-radius: 5%;
+    background-color: orange;
+    font-size: 100;
 }
