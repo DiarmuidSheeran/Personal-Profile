@@ -170,12 +170,42 @@ a {
 
 #about-me-section:hover {
     transform: rotateZ(360deg);
-    transition-duration: 2s;
+    transition-duration: 5s;
     transform-origin: 0%;
 }
 
 /*-----------footer style-----------------*/
 
+#footer-container {
+    border: solid slategray 5px;
+    border-radius: 20px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#footer-container h1 {
+    font-size: 100%;
+    text-transform: lowercase;
+}
+
+#footer-list {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-list li{
+    float: left;
+    list-style-type: none;  
+}
+
+#footer-list li a {
+    display: block;
+    padding: 14px 16px;
+
+}
 
 
 
