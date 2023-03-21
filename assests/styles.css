@@ -178,6 +178,44 @@ a {
     color: black;
 }
 
+/*------------------download button---------------*/
+
+#download {
+    text-align: center;
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#download-heading {
+    font-size: 300%;
+    text-transform: uppercase;
+}
+
+#download-button {
+    color: slategray;
+    text-transform: uppercase;
+    font-size: 300%;
+    border: solid white 0px;
+    border-radius: 200px;
+    background-color: orange;
+}
+
+#download-button:hover {
+    border: solid slategray 10px;
+    border-radius: 200px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    background-color: white;
+    
+    
+}
+
+
+ 
+
+
 /*-----------footer style-----------------*/
 
 #footer-container {
