@@ -49,17 +49,16 @@ a {
     font-size: 200%;
     letter-spacing: 3px;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
 }
 
 #nav-bar-container a {
     text-decoration: none;
-    
+   
 }
 
-#nav-bar-container ul {
-    display: flex;
-    justify-content: center;
-}
+
 
 #nav-bar-container li {
     letter-spacing: 3px;
@@ -70,6 +69,7 @@ a {
     padding-left: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
+    float: left;
 }
 
 #nav-bar-container li:hover {
