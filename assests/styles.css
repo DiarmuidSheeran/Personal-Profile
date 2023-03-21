@@ -10,6 +10,7 @@ body{
     font-family: lato, sans-serif;
     background-color: #030301;
     color: slategray;
+    height: 100%;
 }
 
 h1 {
@@ -84,7 +85,6 @@ a {
     flex-direction: row;
     justify-content: center;
     margin-top: 5px;
-
     border-radius: 20px;
     text-align: center;
     
@@ -152,10 +152,10 @@ a {
 
 #about-me-section {
     text-align: center;
-    border: solid slategray 5px;
-    border-radius: 20px;
     margin-left: 16.5%;
     margin-right: 16.5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #about-me h1{
@@ -179,11 +179,13 @@ a {
 #footer-container {
     border: solid slategray 5px;
     border-radius: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: center;
     font-size: 200%;
     letter-spacing: 3px;
     text-transform: uppercase;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 #footer-container h1 {
