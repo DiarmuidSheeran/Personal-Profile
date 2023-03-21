@@ -29,7 +29,7 @@ a {
 /*---------------Header (logo) style -----------------*/
 
 #logo-container {
-    border: solid slategray 1px;
+    border: solid slategray 5px;
     border-radius: 20px;
     margin-top: 5px;
     text-align: center;
@@ -45,8 +45,6 @@ a {
 /*---------------Navigation bar style ---------------*/
 
 #nav-bar-container {
-    border: solid slategray 1px;
-    border-radius: 20px;
     margin-top: 5px;
     font-size: 200%;
     letter-spacing: 3px;
@@ -67,7 +65,7 @@ a {
     letter-spacing: 3px;
     list-style-type: none;
     padding-right: 20px;
-    border: solid slategray 1px;
+    border: solid slategray 5px;
     border-radius: 20px;
     padding-left: 20px;
     margin-top: 5px;
@@ -86,7 +84,7 @@ a {
     flex-direction: row;
     justify-content: center;
     margin-top: 5px;
-    border: solid slategray 1px;
+
     border-radius: 20px;
     text-align: center;
     
@@ -148,4 +146,16 @@ a {
     border-radius: 5%;
     background-color: orange;
     font-size: 100;
+}
+
+/*---------------about me style-----------------*/
+
+#about-me-section {
+    text-align: center;
+}
+
+#about-me h1{
+    font-size: 400%;
+    text-transform: uppercase;
+    border: solid slategray 5px;
 }
