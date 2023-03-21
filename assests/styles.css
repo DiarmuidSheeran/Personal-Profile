@@ -20,6 +20,12 @@ li {
     font-family: oswald,sans-serif;
 }
 
+a {
+    color: slategray;
+    text-decoration: none;
+
+}
+
 /*---------------Header (logo) style -----------------*/
 
 #logo-container {
@@ -83,30 +89,30 @@ li {
     border: solid slategray 1px;
     border-radius: 20px;
     text-align: center;
-    padding-top: 50px;
+    
 }
 
 #linkedin {
-    width: 0;
+    width: 33%;
+    margin-top: 250px;
+    text-transform: uppercase;
+
+
+}
+
+#linkedin h1 {
+    font-size: 300%;
+}
+
+#linkedin p {
+    font-weight: bold;
 }
 
 #about {
-    width: 100%;
+    width: 33%;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
-}
-
-#about h1 {
-    text-transform: uppercase;
-    font-size: 300%;
-    text-align: center;
-}
-
-#about p {
-    font-size: 150%;
-    text-align: center;
-
 }
 
 #portrait {
@@ -115,11 +121,20 @@ li {
     border: solid slategray 5px;
     border-radius: 200px;
     object-fit: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #github {
-    width: 0;
-    text-align: center;
-    
+    width: 33%;
+    margin-top: 250px; 
     text-transform: uppercase;
+}
+
+#github h1 {
+    font-size: 300%;
+}
+
+#github p {
+    font-weight: bold;
 }
