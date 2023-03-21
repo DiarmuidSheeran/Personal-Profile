@@ -152,10 +152,32 @@ a {
 
 #about-me-section {
     text-align: center;
+    border: solid slategray 5px;
+    border-radius: 20px;
+    margin-left: 16.5%;
+    margin-right: 16.5%;
 }
 
 #about-me h1{
     font-size: 400%;
     text-transform: uppercase;
-    border: solid slategray 5px;
 }
+
+#about-me p{
+    font-size: 150%;
+    padding-bottom: 20px;
+}
+
+#about-me-section:hover {
+    transform: rotateZ(360deg);
+    transition-duration: 2s;
+    transform-origin: 0%;
+}
+
+/*-----------footer style-----------------*/
+
+
+
+
+
+
