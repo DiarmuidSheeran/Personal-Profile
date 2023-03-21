@@ -20,9 +20,12 @@ li {
     font-family: oswald,sans-serif;
 }
 
+/*---------------Header (logo) style -----------------*/
+
 #logo-container {
     border: solid slategray 1px;
     border-radius: 20px;
+    margin-top: 5px;
     text-align: center;
     font-size: 200%;
     letter-spacing: 3px;
@@ -31,5 +34,42 @@ li {
 
 #logo-container a {
     text-decoration: none;
+}
+
+/*---------------Navigation bar style ---------------*/
+
+#nav-bar-container {
+    border: solid slategray 1px;
+    border-radius: 20px;
+    margin-top: 5px;
+    font-size: 200%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#nav-bar-container a {
+    text-decoration: none;
+    
+}
+
+#nav-bar-container ul {
+    display: flex;
+    justify-content: center;
+}
+
+#nav-bar-container li {
+    letter-spacing: 3px;
+    list-style-type: none;
+    padding-right: 20px;
+    border: solid slategray 1px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#nav-bar-container li:hover {
+    border: solid slategray 5px;
+    background-color: orange;
 }
 
