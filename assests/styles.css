@@ -172,6 +172,10 @@ a {
     transform: rotateZ(360deg);
     transition-duration: 5s;
     transform-origin: 0%;
+    border: solid white 2px;
+    border-radius: 5%;
+    background-color: orange;
+    color: black;
 }
 
 /*-----------footer style-----------------*/
