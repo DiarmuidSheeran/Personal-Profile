@@ -220,11 +220,11 @@ a {
 
 #form-container {
   padding: 10px;
-  border: solid slategray 10px;
+  border: solid orange 10px;
   border-radius: 20px;
   margin-left: 16.5%;
   margin-right: 16.5%;
-  background-color: orange;
+
   color: #030301;
   font-weight: bold;
 
@@ -237,7 +237,7 @@ a {
 input [type=text], select, textarea {
     width: 100%;
     padding: 10px;
-    border: 5px solid #ccc;
+    border: 5px solid orange;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -247,8 +247,8 @@ input [type=text], select, textarea {
 
 input[type=submit] {
     font-size: 150%;
-    background-color: #030301;
-    color: orange;
+    background-color: lightblue;
+    color: lblack;
     border: 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -261,6 +261,7 @@ input[type=submit]:hover {
 
 label {
     font-weight: bold;
+    color: lightblue
 }
 
 
@@ -344,17 +345,14 @@ label {
         width: 300px;
         height: 300px;
         border-radius: 150px;
-        object-fit: cover;
         margin-top: 25px;
 
     }
 
     #about-me-section {
-        text-align: center;
         margin-left: 5%;
         margin-right: 5px;
         padding-top: 0px;
-        padding-bottom: 50px;
     }
     
     #about-me h1{
@@ -363,8 +361,9 @@ label {
     
     #about-me p{
         font-size: 100%;
-        padding-bottom: 10px;
     }
+
+
 
 }
 
