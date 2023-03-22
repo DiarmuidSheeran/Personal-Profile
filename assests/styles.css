@@ -215,22 +215,25 @@ a {
 /*--------form style-------------*/
 
 #form-container {
-  padding: 20px;
-  border: solid white 2px;
+  padding: 10px;
+  border: solid slategray 10px;
   border-radius: 20px;
-  background-position: center;
   margin-left: 16.5%;
-    margin-right: 16.5%;
+  margin-right: 16.5%;
+  background-color: orange;
+  color: #030301;
+  font-weight: bold;
+
 }
 
 #form-container h1 {
-    font-size: 300%;
+    font-size: 200%;
 }
 
 input [type=text], select, textarea {
     width: 100%;
-    padding: 12px;
-    border: 0px solid #ccc;
+    padding: 10px;
+    border: 5px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -238,7 +241,23 @@ input [type=text], select, textarea {
     
 }
 
- 
+input[type=submit] {
+    font-size: 150%;
+    background-color: #030301;
+    color: orange;
+    border: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: orange;
+}
+
+label {
+    font-weight: bold;
+}
 
 
 /*-----------footer style-----------------*/
