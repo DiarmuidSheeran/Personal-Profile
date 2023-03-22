@@ -386,6 +386,17 @@ label {
         flex-wrap: wrap;
     }
 
+    #download {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    #download-heading {
+        font-size: 150%;
+    }
+
+    
+
 }
 
 
