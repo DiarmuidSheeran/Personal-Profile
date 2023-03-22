@@ -8,8 +8,8 @@
 
 body{
     font-family: lato, sans-serif;
-    background-color: #030301;
-    color: slategray;
+    background-color: black;
+    color: orange;
     height: 100%;
 }
 
@@ -22,7 +22,7 @@ li {
 }
 
 a {
-    color: slategray;
+    color: lightblue;
     text-decoration: none;
 
 }
@@ -30,13 +30,15 @@ a {
 /*---------------Header (logo) style -----------------*/
 
 #logo-container {
-    border: solid slategray 5px;
+    border: solid orange 5px;
     border-radius: 20px;
     margin-top: 5px;
     text-align: center;
     font-size: 200%;
     letter-spacing: 3px;
     text-transform: uppercase;
+    background-color: black;
+
 }
 
 #logo-container a {
@@ -65,12 +67,13 @@ a {
     letter-spacing: 3px;
     list-style-type: none;
     padding-right: 20px;
-    border: solid slategray 5px;
+    border: solid orange 5px;
     border-radius: 20px;
     padding-left: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
     float: left;
+    background-color: black;
 }
 
 #nav-bar-container li:hover {
@@ -271,7 +274,7 @@ label {
     letter-spacing: 3px;
     text-transform: uppercase;
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 50px; 
 }
 
 #footer-container h1 {
@@ -295,7 +298,56 @@ label {
 
 }
 
+@media screen and (max-width: 950px) {
+    
+    #logo-container {
+        text-align: center;
+        font-size: 130%;
+        letter-spacing: 1px;
+    }
 
+    #nav-bar-container {
+        font-size: 75%;
+        letter-spacing: 1px;
+    }
+
+    #main-section-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        
+    }
+
+    #linkedin {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #linkedin h1 {
+        font-size: 150%;
+    }
+
+    #github {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #github h1 {
+        font-size: 150%;
+    }
+
+    #portrait {
+        width: 300px;
+        height: 300px;
+        border: solid slategray 5px;
+        border-radius: 150px;
+        object-fit: cover;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+}
 
 
 
