@@ -271,20 +271,19 @@ label {
 /*-----------footer style-----------------*/
 
 #footer-container {
-    border: solid slategray 5px;
+    border: solid lightblue 5px;
     border-radius: 20px;
     margin-top: 10px;
     text-align: center;
     font-size: 200%;
     letter-spacing: 3px;
-    text-transform: uppercase;
     padding-bottom: 50px;
     padding-top: 50px; 
 }
 
 #footer-container h1 {
     font-size: 100%;
-    text-transform: lowercase;
+    color: orange
 }
 
 #footer-list {
@@ -366,7 +365,21 @@ label {
         font-size: 100%;
     }
 
-
+    #footer-container {
+        border: solid lightblue 5px;
+        margin-top: 5px;
+        font-size: 100%;
+        padding-bottom: 25px;
+        padding-top: 25px; 
+    }
+    
+    #footer-container h1 {
+        font-size: 100%;
+    }
+    
+    #footer-list {
+        flex-wrap: wrap;
+    }
 
 }
 
