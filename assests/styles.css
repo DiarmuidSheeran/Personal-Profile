@@ -363,6 +363,24 @@ label {
         font-size: 100%;
     }
 
+    #github:hover {
+        transition: width 0, height 0;
+        width: 0%;
+        height: 0%;
+        border: solid white 0px;
+        border-radius: 0%;
+        background-color: black;
+        font-size: 100;
+    }
+    #linkedin:hover {
+        transition: width 0s, height 0s;
+        width: 0%;
+        height: 0%;
+        border: solid white 0px;
+        border-radius: 0%;
+        background-color: black;
+        font-size: 100;
+    }
 
 
 }
