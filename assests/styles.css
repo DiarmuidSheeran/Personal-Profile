@@ -183,6 +183,11 @@ a {
     border-radius: 5%;
     background-color: orange;
     color: black;
+    font-weight: bolder;
+}
+
+#about-me-section:hover h1{
+    color: black
 }
 
 /*------------------download button---------------*/
