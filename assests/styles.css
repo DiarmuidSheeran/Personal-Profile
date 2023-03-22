@@ -108,16 +108,17 @@ a {
     font-weight: bold;
 }
 
-#linkedin:hover {
-    transition: width 2s, height 4s;
-    width: 50%;
-    height: 50%;
-    border: solid white 2px;
-    border-radius: 5%;
-    background-color: orange;
-    font-size: 100;
+@media (hover: hover) {
+    #linkedin:hover {
+        transition: width 2s, height 4s;
+        width: 50%;
+        height: 50%;
+        border: solid white 2px;
+        border-radius: 5%;
+        background-color: orange;
+        font-size: 100;
+    }
 }
-
 #portrait {
     width: 400px;
     height: 400px;
@@ -142,16 +143,18 @@ a {
     font-weight: bold;
 }
 
-#github:hover {
-    transition: width 2s, height 4s;
-    width: 50%;
-    height: 50%;
-    border: solid white 2px;
-    border-radius: 5%;
-    background-color: orange;
-    font-size: 100;
-}
+@media (hover: hover) {
 
+    #github:hover {
+        transition: width 2s, height 4s;
+        width: 50%;
+        height: 50%;
+        border: solid white 2px;
+        border-radius: 5%;
+        background-color: orange;
+        font-size: 100;
+    }
+}
 /*---------------about me style-----------------*/
 
 #about-me-section {
@@ -363,24 +366,6 @@ label {
         font-size: 100%;
     }
 
-    #github:hover {
-        transition: width 0, height 0;
-        width: 0%;
-        height: 0%;
-        border: solid white 0px;
-        border-radius: 0%;
-        background-color: black;
-        font-size: 100;
-    }
-    #linkedin:hover {
-        transition: width 0s, height 0s;
-        width: 0%;
-        height: 0%;
-        border: solid white 0px;
-        border-radius: 0%;
-        background-color: black;
-        font-size: 100;
-    }
 
 
 }
