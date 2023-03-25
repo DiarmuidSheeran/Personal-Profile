@@ -93,6 +93,34 @@ It will also give the user an oppertunity to leave feedback to me to help me imp
     <li> I fixed this by adding the hover:hover syntax to make sure this feature was only availble on devices with the capabilities of hovering.</li>
 </ul>
 
+<br>
+
+<h1>Valedator Testing</h1>
+<ul>
+    <li>HTML</li>
+        <ul>
+            <li>No Issues found on W3C HTML Validator</li>
+        </ul>
+</ul>
+<ul>
+    <li>CSS</li>
+        <ul>
+            <li>No Issues found on W3C HTML Validator</li>
+        </ul>
+</ul>
+<ul>
+    <li>HTML</li>
+        <ul>
+            <li>No Issues found on W3C HTML Validator</li>
+        </ul>
+</ul>
+<ul>
+    <li>CSS</li>
+        <ul>
+            <li>No Issues found on W3C HTML Validator</li>
+        </ul>
+</ul>
+
 
 
 

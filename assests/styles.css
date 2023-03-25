@@ -18,6 +18,11 @@ h1 {
     color: lightblue;
 }
 
+h2 {
+    font-family: oswald, sans-serif;
+    color: lightblue;
+}
+
 li {
     font-family: oswald,sans-serif;
 }
@@ -186,7 +191,7 @@ a {
     padding-bottom: 50px;
 }
 
-#about-me h1{
+#about-me h2{
     font-size: 400%;
     text-transform: uppercase;
     color: black;
@@ -225,7 +230,7 @@ a {
     
 }
 
-#about-me-section:hover h1{
+#about-me-section:hover h2{
     color: black
 }
 
@@ -279,7 +284,7 @@ a {
 
 }
 
-#form-container h1 {
+#form-container h2 {
     font-size: 200%;
 }
 
@@ -326,7 +331,7 @@ input {
 /*-----------footer style-----------------*/
 
 #footer-container {
-    border: solid lightblue 5px;
+    border: solid orange 5px;
     border-radius: 20px;
     margin-top: 10px;
     text-align: center;
@@ -386,7 +391,7 @@ input {
         width: 100%;
     }
 
-    #linkedin h1 {
+    #linkedin h2 {
         font-size: 150%;
     }
 
@@ -398,7 +403,7 @@ input {
         width: 100%;
     }
     
-    #github h1 {
+    #github h2 {
         font-size: 150%;
     }
 
@@ -416,7 +421,7 @@ input {
         padding-top: 0px;
     }
     
-    #about-me h1{
+    #about-me h2{
         font-size: 200%;
     }
     
@@ -432,7 +437,7 @@ input {
         padding-top: 25px; 
     }
     
-    #footer-container h1 {
+    #footer-container h2 {
         font-size: 100%;
     }
     
