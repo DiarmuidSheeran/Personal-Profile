@@ -45,9 +45,24 @@ It will also give the user an oppertunity to leave feedback to me to help me imp
             <li>There is a submit button underneath the input fields that allows the user to submit the data they have entered.</li>
             <li>When the submit button is hovered over its properties change and the mouse changes to a pointer.</li>
             <img src="assests/images/feedback-form-container.jpg" alt="picture of feedback form">
-            <img src="assests/images/submit-button-highlightedjpg.jpg" alt="picture of download button highlighted">
+            <img src="assests/images/submit-button-highlightedjpg.jpg" alt="picture of submit button highlighted">
         </ul>
     </li>
+    <li><h2>Transform and Transition Properties</h2>
+        <ul>
+            <li>To create a more interactive UI design some transorm and transition properties were added.</li>
+            <li>The Github and Linkedin links will grow both left and right while keeping the text centered using a transition technique is css. </li>
+            <li>Using hover:hover allows the user to not get these effects on smaller devices that dont have a mouse to hover over. This avoided any bad UI implications.</li>
+            <img src="assests/images/github-highlight.jpg" alt="picture of github link highlighted">
+            <img src="assests/images/linkedin-highlight.jpg" alt="picture of linkedin link highlighted">
+            <li>When the page loads the about me section floats into position before doing a full 360 degree flip.</li>
+            <li>This is achived by using keyframe, transform and translate3d in css.</li>
+            <li>The aim of this is to instantly engage the user and create intreague about the site.</li>
+            <img src="assests/images/loading-page.gif" alt="picture of the loading page in gif format on loop">
+        </ul>
+    </li>
+
+
 
 
 
