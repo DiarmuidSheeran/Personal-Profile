@@ -84,7 +84,7 @@ a {
 
 /*----------------Main Section style----------------*/
 
-#main-section-container {
+.main-section-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -168,6 +168,7 @@ a {
 #about-me h1{
     font-size: 400%;
     text-transform: uppercase;
+    color: black;
 }
 
 #about-me p{
@@ -175,15 +176,27 @@ a {
     padding-bottom: 20px;
 }
 
-#about-me-section:hover {
-    transform: rotateZ(360deg);
-    transition-duration: 5s;
-    transform-origin: 0%;
+#about-me-section {
+    
     border: solid white 2px;
     border-radius: 5%;
     background-color: orange;
     color: black;
     font-weight: bolder;
+
+    animation: rotate;
+    animation-duration: 5s;
+}
+
+@keyframes rotate {
+    from {
+    transform: rotateZ(360deg);
+    }
+
+    to {
+        transform-origin: 0%;
+    }
+    
 }
 
 #about-me-section:hover h1{
@@ -331,7 +344,7 @@ input {
         letter-spacing: 1px;
     }
 
-    #main-section-container {
+    .main-section-container {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
