@@ -461,7 +461,7 @@ input {
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
     
     #logo-container {
         text-align: center;
