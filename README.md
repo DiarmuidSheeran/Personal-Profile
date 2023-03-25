@@ -74,6 +74,25 @@ It will also give the user an oppertunity to leave feedback to me to help me imp
     <li>I have tested the form and confirmed that it takes in inputs and submits it to the Code Institute form dump.</li>
 </ul>
 
+<br>
+
+<h1>Bugs</h1>
+<h2>Solved Bugs</h2>
+<ul>
+    <h3>Problem:</h3>
+    <li>When I was trying to make my website responive on a tablet i had problems lining the 3 divs for the main section in a line verticaly.</li>
+    <h3>Solution:</h3>
+    <li> I figured out that by changing the width from 33% of the screen to 100% fixed the issue</li>
+   <h3>Problem:</h3>
+    <li>I had issue lining up the logo on the header with smaller devices because of the large text size.</li>
+    <h3>Solution:</h3>
+    <li>I fixed this by moving all the font awsome onto a new line to keep it space apropriatly with my name.</li>
+    <h3>Problem:</h3>
+    <li>When using the site on a mobile device i noticed that when the github and linkedin links were clicked and I returned to the site they would permanently have changed there properties because of the trasition.</li>
+    <h3>Solution:</h3>
+    <li> I fixed this by adding the hover:hover syntax to make sure this feature was only availble on devices with the capabilities of hovering.</li>
+</ul>
+
 
 
 
