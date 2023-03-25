@@ -461,16 +461,16 @@ input {
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 320px) {
     
     #logo-container {
         text-align: center;
-        font-size: 110%;
+        font-size: 120%;
         letter-spacing: 1px;
     }
 
     #nav-bar-container {
-        font-size: 40%;
+        font-size: 50%;
         letter-spacing: 1px;
     }
 
