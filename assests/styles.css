@@ -121,10 +121,14 @@ a {
     }
 }
 
-#linkedin:hover p {
-    color: black;
-    font-weight: bold;
-} 
+@media (hover: hover) {
+    #linkedin:hover p {
+        color: slategray;
+        font-weight: bold;
+    } 
+}
+
+
 
 #portrait {
     width: 400px;
@@ -164,10 +168,14 @@ a {
     }
 }
 
-#github:hover p {
-    color: black;
-    font-weight: bold;
+@media (hover: hover) {
+
+    #github:hover p {
+        color: black;
+        font-weight: slategray;
+    }
 }
+
 /*---------------about me style-----------------*/
 
 #about-me-section {
@@ -461,7 +469,7 @@ input {
     }
 
     #nav-bar-container {
-        font-size: 50%;
+        font-size: 45%;
         letter-spacing: 1px;
     }
 
