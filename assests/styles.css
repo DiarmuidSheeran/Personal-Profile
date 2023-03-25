@@ -352,7 +352,7 @@ input {
     .main-section-container {
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-direction: column;
         text-align: center;
         
     }
@@ -360,6 +360,7 @@ input {
     #linkedin {
         text-align: center;
         margin-top: 10px;
+        width: 100%;
     }
 
     #linkedin h1 {
@@ -371,6 +372,7 @@ input {
         margin-top: 10px;
         margin-bottom: 10px;
         padding-bottom: 10px;
+        width: 100%;
     }
     
     #github h1 {
