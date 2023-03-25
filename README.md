@@ -111,15 +111,45 @@ It will also give the user an oppertunity to leave feedback to me to help me imp
 <ul>
     <li>HTML</li>
         <ul>
-            <li>No Issues found on W3C HTML Validator</li>
+            <li>No Issues found on jigsaw.w3.org Validator</li>
         </ul>
 </ul>
 <ul>
     <li>CSS</li>
         <ul>
-            <li>No Issues found on W3C HTML Validator</li>
+            <li>No Issues found on jigsaw.w3.org Validator</li>
         </ul>
 </ul>
+
+<ul>
+    <li>Accessibility</li>
+        <ul>
+            <li>I confirmed that my colors and fonts are readable by using the lighthouse tool for each page scoring 100 in accessibility in all 3 pages.</li>
+            <img src="assests/images/lighthouse-home.jpg" alt="picture of github link highlighted">
+            <br>
+            <img src="assests/images/lighthouse-cv.jpg" alt="picture of github link highlighted">
+            <br>
+            <img src="assests/images/lighthouse-feedback.jpg" alt="picture of github link highlighted">
+        </ul>
+</ul>
+
+<br>
+<h1>Deployment</h1>
+<ul>
+    <li>This site  was deployed to GitHub pages</li>
+        <ul>
+            <li>In the github repository of Personel Profile navigate to the settings tab.</li>
+            <li>On the left-hand side navigation bar click on the Pages tab.</li>
+            <li>Click on the dropdown menu for branches and select main.</li>
+            <li>Reresh the page.</li>
+            <li>The page provided a link to the completed website.</li>
+        </ul>
+    <li>The link to the finished website can be found by clicking the link to <a href="https://diarmuidsheeran.github.io/Personal-Profile/">Diarmuid Sheeran's Personal Profile</a></li>
+</ul>
+
+
+
+
 
 
 
