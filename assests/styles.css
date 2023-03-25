@@ -106,6 +106,7 @@ a {
 
 #linkedin p {
     font-weight: bold;
+    color: orange;
 }
 
 @media (hover: hover) {
@@ -119,6 +120,12 @@ a {
         font-size: 100;
     }
 }
+
+#linkedin:hover p {
+    color: black;
+    font-weight: bold;
+} 
+
 #portrait {
     width: 400px;
     height: 400px;
@@ -141,6 +148,7 @@ a {
 
 #github p {
     font-weight: bold;
+    color: orange;
 }
 
 @media (hover: hover) {
@@ -154,6 +162,11 @@ a {
         background-color: orange;
         font-size: 100;
     }
+}
+
+#github:hover p {
+    color: black;
+    font-weight: bold;
 }
 /*---------------about me style-----------------*/
 
@@ -335,6 +348,8 @@ input {
     padding: 14px 16px;
 
 }
+
+/*-----------Mobile device responsivenes----------*/
 
 @media screen and (max-width: 950px) {
     
