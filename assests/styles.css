@@ -452,7 +452,7 @@ input {
 
 /*-----------Mobile device responsivenes----------*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 355px) {
     
     #logo-container {
         text-align: center;
@@ -479,7 +479,7 @@ input {
 
 /*-----------Smaller device responsivenes----------*/
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 306px) {
     
     #logo-container {
         text-align: center;
