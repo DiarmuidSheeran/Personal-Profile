@@ -191,7 +191,7 @@ a {
 
 @keyframes rotate {
     from {
-        transform: translate3d(100%, -200%, 0);  
+        transform: translate3d(0, -200%, 0);  
     }
 
     80% {
@@ -426,6 +426,17 @@ input {
 
     input {
         width: 70%;
+    }
+
+    @keyframes rotate {
+        from {
+            transform: translate3d(0, -200%, 0);  
+        }
+    
+        to {
+            transform-origin: 0%;
+        }
+        
     }
 }
 
