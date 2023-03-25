@@ -117,7 +117,7 @@ a {
         border: solid white 2px;
         border-radius: 5%;
         background-color: orange;
-        font-size: 100;
+        font-size: 100%;
     }
 }
 
@@ -164,7 +164,7 @@ a {
         border: solid white 2px;
         border-radius: 5%;
         background-color: orange;
-        font-size: 100;
+        font-size: 100%;
     }
 }
 
@@ -172,7 +172,7 @@ a {
 
     #github:hover p {
         color: black;
-        font-weight: slategray;
+        font-weight: bold;
     }
 }
 
