@@ -418,6 +418,10 @@ input {
     #download-heading {
         font-size: 150%;
     }
+
+    input {
+        width: 70%;
+    }
 }
 
 
