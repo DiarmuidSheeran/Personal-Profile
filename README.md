@@ -3,4 +3,12 @@
 <p>The aim of the website is to give someone a brief introduction to what I am currently learning or have learned, and also give them an oppertunity to download and check out my CV. <br>
 It will also give the user an oppertunity to leave feedback to me to help me improve my site.<p>
 
+<h1>Features<h1>
+<ul>
+    <li><h2>Navigation</h2>
+        <ul>
+            <li>Positioned in the center at the top of the page: Diarmuid Sheeran provides a link to the home page.</li>
+        </ul>
+    </li>
+
 
