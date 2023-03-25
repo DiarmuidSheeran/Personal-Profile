@@ -215,11 +215,13 @@ a {
 }
 
 #download-button:hover {
-    border: solid slategray 10px;
+    border: solid orange 10px;
     border-radius: 200px;
     border-left-width: 5px;
     border-right-width: 5px;
     background-color: white;
+    cursor: pointer;
+    color: slategray;
     
     
 }
@@ -254,17 +256,21 @@ input [type=text], select, textarea {
 }
 
 input[type=submit] {
-    font-size: 150%;
-    background-color: lightblue;
-    color: lblack;
-    border: 10px;
-    border-radius: 5px;
-    cursor: pointer;
+    width: 200px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 100%;
+    border-radius: 200px;
+    background-color: orange;
+    font-weight: bold;
 }
 
 input[type=submit]:hover {
+    border: solid orange 5px;
+    border-radius: 100px;
     background-color: white;
-    color: orange;
+    cursor: pointer;
+    color: slategray;
 }
 
 label {
@@ -274,6 +280,7 @@ label {
 input {
     width: 400px;
     border: solid orange 5px;
+    border-radius: 4px;
 }
 
 
