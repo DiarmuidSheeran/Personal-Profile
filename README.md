@@ -58,6 +58,7 @@ It will also give the user an oppertunity to leave feedback to me to help me imp
             <li>When the page loads the about me section floats into position before doing a full 360 degree flip.</li>
             <li>This is achived by using keyframe, transform and translate3d in css.</li>
             <li>The aim of this is to instantly engage the user and create intreague about the site.</li>
+            <li>Click the gif below for a demonstration.</li>
             <img src="assests/images/loading-page.gif" alt="picture of the loading page in gif format on loop">
         </ul>
     </li>
@@ -65,7 +66,12 @@ It will also give the user an oppertunity to leave feedback to me to help me imp
 
 <h1>Testing</h1>
 <ul>
-    <li></li>
+    <li>I tested the website worked on different web browsers such as Chrome, Edge and Firefox.</li>
+    <li>I tested and confiremd the responsive nature of the site on different devices such a mobile device, a tablet and a desktop computer.</li>
+    <li>I confirmed that the the navigation bars direct the user to the correct destination.</li>
+    <li>I tested the download capabilities of my download link and confirmed that it downloads my CV.</li>
+    <li>I confirmed that the Linkedin and the Github links take the user directly to my respective pages.</li>
+    <li>I have tested the form and confirmed that it takes in inputs and submits it to the Code Institute form dump.</li>
 </ul>
 
 
