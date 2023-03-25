@@ -186,11 +186,16 @@ a {
 
     animation: rotate;
     animation-duration: 5s;
+    
 }
 
 @keyframes rotate {
     from {
-    transform: rotateZ(360deg);
+        transform: translate3d(100%, -200%, 0);  
+    }
+
+    80% {
+        transform: rotateZ(360deg);
     }
 
     to {
