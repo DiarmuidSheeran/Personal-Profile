@@ -271,6 +271,10 @@ label {
     font-weight: bold;
     color: lightblue
 }
+input {
+    width: 400px;
+    border: solid orange 5px;
+}
 
 
 /*-----------footer style-----------------*/
