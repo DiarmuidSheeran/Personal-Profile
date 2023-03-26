@@ -124,7 +124,7 @@ It will also give the user an oppertunity to leave feedback to me to help me imp
 <ul>
     <li>Accessibility</li>
         <ul>
-            <li>I confirmed that my colors and fonts are readable by using the lighthouse tool for each page scoring 100 in accessibility in all 3 pages.</li>
+            <li>I confirmed that my colors and fonts are readable by using the lighthouse tool for each page scoring 100 in accessibility on all 3 pages.</li>
             <img src="assests/images/lighthouse-home.jpg" alt="picture of github link highlighted">
             <br>
             <img src="assests/images/lighthouse-cv.jpg" alt="picture of github link highlighted">
@@ -147,6 +147,30 @@ It will also give the user an oppertunity to leave feedback to me to help me imp
     <li>The link to the finished website can be found by clicking the link to <a href="https://diarmuidsheeran.github.io/Personal-Profile/">Diarmuid Sheeran's Personal Profile</a></li>
 </ul>
 
+<h1>Credits</h1>
+<ul>
+    <li>Contet</li>
+        <ul>
+            <li>Some of the HTML and CSS used in the general layout of the web page was taken from the <a href="https://diarmuidsheeran.github.io/love-running/" target="_blank">Love Running</a> project.</li>
+            <li>The flex direction syntax along with some other CSS styling were taken from <a href="https://www.youtube.com/watch?v=Xm4BObh4MhI&t=8897s\" target="_blank">Code with Ania KubówCode's</a> youtube video.</li>
+            <li>The form was created and styled following the guidelines from both Ania's youtube video linked above and <a href="https://www.w3schools.com/css/css_form.asp" target="_blank">W3 Schools Website.  </a></li>
+            <li>The @Keyframe property for the about me section to work on the loading screen was taken from the <a href="https://diarmuidsheeran.github.io/love-running/" target="_blank">Love Running</a> project.</li>
+            <li>The translate3d and transform properties were both taken from the <a href="https://www.w3schools.com/css/css3_3dtransforms.asp" target="_blank">W3 Schools Website.</a></li>
+            <li>The code for the download button was inspired by <a href="https://www.youtube.com/watch?v=mwqz0TOSKI8" target="_blank">Kode youtube video.</a></li>
+            <li>The code to stop the hover feature on non hoverable devices was inspired by <a href="https://www.youtube.com/watch?v=uuluAyw9AI0&t=347s" target="_blank">Kevin Powells </a>youtube video.</li>
+        </ul>
+<br>
+    <li>Media</li>
+         <ul>
+            <li>The Image for the feedback form was taken from <a href="https://pixabay.com/illustrations/fax-white-male-3d-model-isolated-1889009/" target="_blank">Pixelbay.</a> </li>
+            <li>The image for the cv download page was taken from<a href="https://pixabay.com/illustrations/globe-space-galaxy-data-technology-6858907/" target="_blank">Pixelbay.</a></li>
+            <li>The image on the index page was taken from my own personal gallery.</li>
+            <li>The image of the CSS certification in the footer of each web page was given by<a href="https://jigsaw.w3.org/css-validator/" target="_blank">Jigsaws CSS Validation Service</a> on retrieving 0 errors for my CSS Code.</li>
+            <li>All images were resized using the built in feature in windows.</li>
+            <li>All Screenshots used in the Readme.md file were pasted to paint and cropped for what ever purpose needed usin microsofts built in image editor feature.</li>
+            <li>The gif was created using a free trial version of the <a href="https://www.movavi.com/adv/screenrecorder.html?utm_campaign=619742607&campaignid=619742607&adgroupid=59044575104&gclid=Cj0KCQjw2v-gBhC1ARIsAOQdKY1fGoOIxtmj-xfXWHdbJi21gOLP9PFAwsSbkjqp7NGL_vZMLSJWYyUaAlGhEALw_wcB" target="_blank">Movavi</a> screen recorder tool.</li>
+        </ul>
+</ul>
 
 
 
