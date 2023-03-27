@@ -35,7 +35,7 @@ a {
 
 /*---------------Header (logo) style -----------------*/
 
-#logo-container {
+.logo-container {
     border: solid #ffa500 5px;
     border-radius: 20px;
     margin-top: 5px;
@@ -47,13 +47,13 @@ a {
 
 }
 
-#logo-container a {
+.logo-container a {
     text-decoration: none;
 }
 
 /*---------------Navigation bar style ---------------*/
 
-#nav-bar-container {
+.nav-bar-container {
     margin-top: 5px;
     font-size: 200%;
     letter-spacing: 3px;
@@ -62,14 +62,14 @@ a {
     justify-content: center;
 }
 
-#nav-bar-container a {
+.nav-bar-container a {
     text-decoration: none;
    
 }
 
 
 
-#nav-bar-container li {
+.nav-bar-container li {
     letter-spacing: 3px;
     list-style-type: none;
     padding-right: 20px;
@@ -82,7 +82,7 @@ a {
     background-color: #000000;
 }
 
-#nav-bar-container li:hover {
+.nav-bar-container li:hover {
     border: solid #add8e6 5px;
     background-color: #ffa500;
 }
@@ -99,23 +99,23 @@ a {
     
 }
 
-#linkedin {
+.linkedin {
     width: 33%;
     margin-top: 210px;
     text-transform: uppercase;
 }
 
-#linkedin h2 {
+.linkedin h2 {
     font-size: 300%;
 }
 
-#linkedin p {
+.linkedin p {
     font-weight: bold;
     color: #ffa500;
 }
 
 @media (hover: hover) {
-    #linkedin:hover {
+    .linkedin:hover {
         transition: width 2s, height 4s;
         width: 50%;
         height: 50%;
@@ -127,7 +127,7 @@ a {
 }
 
 @media (hover: hover) {
-    #linkedin:hover p {
+    .linkedin:hover p {
         color: #000000;
         font-weight: bold;
     } 
@@ -145,24 +145,24 @@ a {
     margin-bottom: 50px;
 }
 
-#github {
+.github {
     width: 33%;
     margin-top: 210px; 
     text-transform: uppercase;
 }
 
-#github h2 {
+.github h2 {
     font-size: 300%;
 }
 
-#github p {
+.github p {
     font-weight: bold;
     color: #ffa500;
 }
 
 @media (hover: hover) {
 
-    #github:hover {
+    .github:hover {
         transition: width 2s, height 4s;
         width: 50%;
         height: 50%;
@@ -175,7 +175,7 @@ a {
 
 @media (hover: hover) {
 
-    #github:hover p {
+    .github:hover p {
         color: #000000;
         font-weight: bold;
     }
@@ -330,7 +330,7 @@ input {
 
 /*-----------footer style-----------------*/
 
-#footer-container {
+.footer-container {
     border: solid #ffa500 5px;
     border-radius: 20px;
     margin-top: 10px;
@@ -341,22 +341,22 @@ input {
     padding-top: 50px; 
 }
 
-#footer-container h1 {
+.footer-container h1 {
     font-size: 100%;
     color: #ffa500;
 }
 
-#footer-list {
+.footer-list {
     display: flex;
     justify-content: center;
 }
 
-#footer-list li{
+.footer-list li{
     float: left;
     list-style-type: none;  
 }
 
-#footer-list li a {
+.footer-list li a {
     display: block;
     padding: 14px 16px;
 
@@ -366,13 +366,13 @@ input {
 
 @media screen and (max-width: 768px) {
     
-    #logo-container {
+    .logo-container {
         text-align: center;
         font-size: 140%;
         letter-spacing: 1px;
     }
 
-    #nav-bar-container {
+    .nav-bar-container {
         font-size: 75%;
         letter-spacing: 1px;
     }
@@ -385,17 +385,17 @@ input {
         
     }
 
-    #linkedin {
+    .linkedin {
         text-align: center;
         margin-top: 10px;
         width: 100%;
     }
 
-    #linkedin h2 {
+    .linkedin h2 {
         font-size: 150%;
     }
 
-    #github {
+    .github {
         text-align: center;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -403,7 +403,7 @@ input {
         width: 100%;
     }
     
-    #github h2 {
+    .github h2 {
         font-size: 150%;
     }
 
@@ -429,7 +429,7 @@ input {
         font-size: 100%;
     }
 
-    #footer-container {
+    .footer-container {
         border: solid #add8e6 5px;
         margin-top: 5px;
         font-size: 100%;
@@ -437,11 +437,11 @@ input {
         padding-top: 25px; 
     }
     
-    #footer-container h2 {
+    .footer-container h2 {
         font-size: 100%;
     }
     
-    #footer-list {
+    .footer-list {
         flex-wrap: wrap;
     }
 
@@ -478,13 +478,13 @@ input {
 
 @media screen and (max-width: 355px) {
     
-    #logo-container {
+    .logo-container {
         text-align: center;
         font-size: 100%;
         letter-spacing: 1px;
     }
 
-    #nav-bar-container {
+    .nav-bar-container {
         font-size: 45%;
         letter-spacing: 1px;
     }
@@ -505,13 +505,13 @@ input {
 
 @media screen and (max-width: 306px) {
     
-    #logo-container {
+    .logo-container {
         text-align: center;
         font-size: 100%;
         letter-spacing: 1px;
     }
 
-    #nav-bar-container {
+    .nav-bar-container {
         font-size: 200%;
         letter-spacing: 0px;
     }
