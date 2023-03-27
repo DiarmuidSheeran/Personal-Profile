@@ -1,7 +1,8 @@
 <h1>Diamruid Sheeran's Personal Profile</h1>
-<p>This is an about me personal profile website for me (Diarmuid Sheeran) to showcase some of my skills in a static HTML/CSS website.</p>
-<p>The aim of the website is to give someone a brief introduction to what I am currently learning or have learned, and also give them an oppertunity to download and check out my CV. <br>
-It will also give the user an oppertunity to leave feedback to me to help me improve my site.</p>
+<p>This is a personal profile website for me (Diarmuid Sheeran) to showcase some of my skills in a static HTML/CSS website.</p>
+<p>The aim of the website is to give the user a brief introduction to what I am currently studying and what I hope to achieve.<br> 
+It will give the user an oppertunity to download my CV. <br>
+It will also give the user an oppertunity to leave feedback to help me improve my site.</p>
 
 <img src="assests/images/Responsive.jpg" alt="picture of Website on differnet devices">
 
@@ -167,7 +168,7 @@ It will also give the user an oppertunity to leave feedback to me to help me imp
             <li>The image on the index page was taken from my own personal gallery.</li>
             <li>The image of the CSS certification in the footer of each web page was given by<a href="https://jigsaw.w3.org/css-validator/" target="_blank">Jigsaws CSS Validation Service</a> on retrieving 0 errors for my CSS Code.</li>
             <li>All images were resized using the built in feature in windows.</li>
-            <li>All Screenshots used in the Readme.md file were pasted to paint and cropped for what ever purpose needed usin microsofts built in image editor feature.</li>
+            <li>All Screenshots used in the Readme.md file were pasted to paint and cropped for what ever purpose needed using microsofts built in image editor feature.</li>
             <li>The gif was created using a free trial version of the <a href="https://www.movavi.com/adv/screenrecorder.html?utm_campaign=619742607&campaignid=619742607&adgroupid=59044575104&gclid=Cj0KCQjw2v-gBhC1ARIsAOQdKY1fGoOIxtmj-xfXWHdbJi21gOLP9PFAwsSbkjqp7NGL_vZMLSJWYyUaAlGhEALw_wcB" target="_blank">Movavi</a> screen recorder tool.</li>
         </ul>
 </ul>
