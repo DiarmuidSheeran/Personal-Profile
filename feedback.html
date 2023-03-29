@@ -76,22 +76,39 @@
       <div id="form-container">
         <h2>Leave Feedback on my work:</h2>
             <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank" id="form">
-              <label for="fname">First Name:<br></label>
-              <input type="text" id="fname" name="fname" placeholder="Your first name..">
+                <label for="fname">First Name:<br></label>
+                <input type="text" id="fname" name="fname" placeholder="Your first name.." required>
 
-              <label for="lname"><br>Last Name:<br></label>
-              <input type="text" id="lname" name="lname" placeholder="Your Last name..">
-      
-              <label for="email"><br>Email:<br></label>
-              <input type="email" id="email" name="email" placeholder="Your email..">
+                <label for="lname"><br>Last Name:<br></label>
+                <input type="text" id="lname" name="lname" placeholder="Your Last name.." required>
+        
+                <label for="email"><br>Email:<br></label>
+                <input type="email" id="email" name="email" placeholder="Your email.." required>
+                <br>
+                <br>
 
-              
-      
-              <label for="message"><br><br>Message:</label>
-              <textarea id="message" name="message" placeholder="Write something.."></textarea>
-      
-              <input type="submit" value="Submit">
-            </form>
+                <p>How would you rate my project?<br>On a scale of 1 to 5:</p>
+                <br>  
+                <label for="1">1</label>
+                <input type="radio" id="1" name="rating" value="1" required>
+                <label for="2">2</label>
+                <input type="radio" id="2" name="rating" value="2" required>
+                <label for="3">3</label>
+                <input type="radio" id="3" name="rating" value="3" required>
+                <label for="4">4</label>
+                <input type="radio" id="4" name="rating" value="4" required>
+                <label for="5">5</label>
+                <input type="radio" id="5" name="rating" value="5" required>
+                
+                  
+                    
+                <label for="message"><br><br>Leave some Feedback:</label>
+                <textarea id="message" name="message" placeholder="Write something.." required minlength="20"></textarea>
+        
+                <input type="submit" value="Submit">
+
+                <input type="reset" value="Clear">
+                </form>
 
       </div>
     </section>
