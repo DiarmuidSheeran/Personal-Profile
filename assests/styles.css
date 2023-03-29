@@ -398,12 +398,7 @@ input {
 
 }
 
-@media screen and (max-width: 1200px) {
 
-    .nav-bar-container {
-        font-size: 100%;
-    }
-}
 
 /*-----------Tablet device responsivenes----------*/
 
@@ -416,12 +411,12 @@ input {
     }
 
     .nav-bar-container {
-        font-size: 50%;
+        font-size: 100%;
         letter-spacing: 1px;
     }
 
     .nav-bar2-container {
-        font-size: 120%;
+        font-size: 100%;
         letter-spacing: 1px;
     }
 
@@ -522,6 +517,18 @@ input {
     }
 }
 
+@media screen and (max-width: 450px) {
+    .nav-bar-container {
+        font-size: 65%;
+        letter-spacing: 1px;
+    }
+
+    .nav-bar2-container {
+        font-size: 65%;
+        letter-spacing: 1px;
+    }
+}
+
 /*-----------Mobile device responsivenes----------*/
 
 @media screen and (max-width: 355px) {
@@ -556,7 +563,7 @@ input {
 
 /*-----------Smaller device responsivenes----------*/
 
-@media screen and (max-width: 306px) {
+@media screen and (max-width: 330px) {
     
     .logo-container {
         text-align: center;
@@ -565,12 +572,12 @@ input {
     }
 
     .nav-bar-container {
-        font-size: 200%;
+        font-size: 210%;
         letter-spacing: 0px;
     }
 
     .nav-bar2-container {
-        font-size: 200%;
+        font-size: 210%;
         letter-spacing: 0px;
     }
 
