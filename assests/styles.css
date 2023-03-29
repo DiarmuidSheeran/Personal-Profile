@@ -390,6 +390,32 @@ input {
     border-radius: 4px;
 }
 
+/*---------------Skills section---------------*/
+
+#skill-section {
+    text-align: center;
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#skill h2{
+    font-size: 300%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#skill-section {
+    
+    border: solid #FFFFFF 2px;
+    border-radius: 5%;
+    background-color: #ffa500;
+    color: #000000;
+    font-weight: bolder;
+    
+}
+
 
 /*-----------footer style-----------------*/
 
@@ -546,6 +572,10 @@ input {
         }
         
     }
+
+    .chart {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -557,6 +587,10 @@ input {
     .nav-bar2-container {
         font-size: 65%;
         letter-spacing: 1px;
+    }
+
+    .chart {
+        width: 100%;
     }
 }
 
@@ -590,6 +624,10 @@ input {
         }
         
     }
+
+    .chart {
+        width: 100%;
+    }
 }
 
 /*-----------Smaller device responsivenes----------*/
@@ -621,5 +659,9 @@ input {
             transform-origin: 0%;
         }
         
+    }
+
+    .chart {
+        width: 100%;
     }
 }

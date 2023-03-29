@@ -77,15 +77,11 @@
         </div>
     </section>
 
-    <section id="about-me-section">
-        <div id ="about-me">
-            <h2>about me</h2>
-            <p>
-                <br>My name is Diarmuid Sheeran and I am currently a student of the Code Institute. <br>
-                <br>In my time in this course I will be studying HTML5, CSS, Javascript and Python.<br>
-                <br>As part of my course I aim to gain all the knowledge needed to be proficient in all area's of these 4 languages.<br>
-                <br>I will also be creating projects to further my portfolio and kick start my career as a software engineer.<br>
-            </p>
+    <section id="skill-section">
+        <div id="skill">
+            <h2>My skillset to Date:</h2>
+
+            <div id="piechart" class="chart"></div>
         </div>
     </section>
 
@@ -134,15 +130,16 @@
 
         var data = google.visualization.arrayToDataTable([
           ['Task', 'Hours per Day'],
-          ['Work',     11],
-          ['Eat',      2],
-          ['Commute',  2],
-          ['Watch TV', 2],
-          ['Sleep',    7]
+          ['HTML5',     8],
+          ['CSS',      8],
+          ['Javascript',  1],
+          ['Python', 3],
         ]);
 
         var options = {
-          title: 'My Daily Activities'
+          title: 'knowledge of coding languages:',
+          backgroundColor: '#ffa500',
+          is3D: true
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
