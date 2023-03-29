@@ -87,6 +87,42 @@ a {
     background-color: #ffa500;
 }
 
+/*-----------Second nav bar container---------------*/
+
+.nav-bar2-container {
+    margin-top: 5px;
+    font-size: 200%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar2-container a {
+    text-decoration: none;
+   
+}
+
+
+
+.nav-bar2-container li {
+    letter-spacing: 3px;
+    list-style-type: none;
+    padding-right: 20px;
+    border: solid #ffa500 5px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    background-color: #000000;
+}
+
+.nav-bar2-container li:hover {
+    border: solid #add8e6 5px;
+    background-color: #ffa500;
+}
+
 /*----------------Main Section style----------------*/
 
 .main-section-container {
@@ -362,6 +398,13 @@ input {
 
 }
 
+@media screen and (max-width: 1200px) {
+
+    .nav-bar-container {
+        font-size: 100%;
+    }
+}
+
 /*-----------Tablet device responsivenes----------*/
 
 @media screen and (max-width: 768px) {
@@ -373,7 +416,12 @@ input {
     }
 
     .nav-bar-container {
-        font-size: 75%;
+        font-size: 50%;
+        letter-spacing: 1px;
+    }
+
+    .nav-bar2-container {
+        font-size: 120%;
         letter-spacing: 1px;
     }
 
@@ -485,7 +533,12 @@ input {
     }
 
     .nav-bar-container {
-        font-size: 45%;
+        font-size: 55%;
+        letter-spacing: 1px;
+    }
+
+    .nav-bar2-container {
+        font-size: 55%;
         letter-spacing: 1px;
     }
 
@@ -512,6 +565,11 @@ input {
     }
 
     .nav-bar-container {
+        font-size: 200%;
+        letter-spacing: 0px;
+    }
+
+    .nav-bar2-container {
         font-size: 200%;
         letter-spacing: 0px;
     }
