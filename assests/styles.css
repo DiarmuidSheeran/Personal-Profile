@@ -306,6 +306,55 @@ a {
     
 }
 
+/*------------Thank you Style-------------*/
+
+#thank-you-section {
+    text-align: center;
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#thank-you h2{
+    font-size: 400%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#thank-you p{
+    font-size: 150%;
+    padding-bottom: 20px;
+}
+
+#thank-you-section {
+    
+    border: solid #FFFFFF 2px;
+    border-radius: 5%;
+    background-color: #ffa500;
+    color: #000000;
+    font-weight: bolder;
+
+    animation: slide;
+    animation-duration: 2s;
+    
+}
+
+@keyframes slide {
+    from {
+        transform: translate3d(200%, 0, 0);  
+    }
+
+    to {
+        transform-origin: 0%;
+    }
+    
+}
+
+#thank-you-section:hover h2{
+    color: #000000;
+}
+
 /*--------form style-------------*/
 
 #form-container {
