@@ -1,8 +1,11 @@
-<h1>Diamruid Sheeran's Personal Profile</h1>
-<p>This is a personal profile website for me (Diarmuid Sheeran) to showcase some of my skills in a static HTML/CSS website.</p>
-<p>The aim of the website is to give the user a brief introduction to what I am currently studying and what I hope to achieve.<br> 
-It will give the user an oppertunity to download my CV. <br>
-It will also give the user an oppertunity to leave feedback to help me improve my site.</p>
+# Diamruid Sheeran's Personal Profile
+This is a personal profile website for me (Diarmuid Sheeran) to showcase some of my skills in a static HTML/CSS website.
+
+The aim of the website is to give the user a brief introduction to what I am currently studying and what I hope to achieve.
+
+It will give the user an oppertunity to download my CV.
+
+It will also give the user an oppertunity to leave feedback to help me improve my site.
 
 <img src="documentation/responsive.jpg" alt="picture of Website on differnet devices">
 

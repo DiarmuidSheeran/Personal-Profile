@@ -646,10 +646,6 @@ input {
         width: 100%;
     }
 
-    #thank-you h2 {
-        font-size: 100%;
-    }
-
     #thank-you-section {
     
         animation: slide;
