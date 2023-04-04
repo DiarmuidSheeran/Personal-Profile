@@ -14,6 +14,7 @@ It will also give the user an oppertunity to leave feedback to help me improve m
   * [Navigation](#Navigation)
   * [Download Button](#Download-Button)
   * [Feedback Form](#Feedback-Form)
+  * [Contact Form](#Contact-Form)
   * [Transform and Transition Properties](#Transform-and-Transition-Properties)
 
 * [Testing](#Testing)
@@ -70,11 +71,23 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 ### Feedback Form
 
 * The feedback form allows the user to input their name, email and write in a text area to submit feedback on my work.
-* There are 3 standered text input fields with 1 larger text area field
+* It also allows the user to give me a rating from 1 to 5 on my project.
+* There are 3 standered text input fields, a radio input field and a larger text area field
 * There is a submit button underneath the input fields that allows the user to submit the data they have entered.
-* When the submit button is hovered over its properties change and the mouse changes to a pointer.
-![picture of feedback form](documentation/feedback-form-container.jpg)
-![picture of submit button highlighted](documentation/submit-button-highlightedjpg.jpg)
+* There is also a reset button to allow a user to reset the form.
+* When the submit button and the reset button is hovered over its properties change and the mouse changes to a pointer.
+![picture of feedback form](documentation/feedback.jpg)
+
+![picture of submit button highlighted](documentation/feedback-hover.jpg)
+
+### Contact Form
+
+* The Contact form allows the user to input their name, email and write a message in the text area
+* When the user hits the submit button the user is re-directed to there email address to send the information they have entered directly to my email.
+* This is achieved by using the action mailto followed by my email address in the form.
+* When the submit and clear buttons are hovered over there properties change just like the feedback form.
+![picture of feedback form](documentation/contact.jpg)
+
 
 ### Transform and Transition Properties
 
@@ -132,11 +145,13 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 
 ## Accessibility
 
-* I confirmed that my colors and fonts are readable by using the lighthouse tool for each page scoring 100 in accessibility on all 3 pages.
+* I confirmed that my colors and fonts are readable by using the lighthouse tool for each page scoring 100 in accessibility on all 5 pages.
 
-![picture of github link highlighted](documentation/lighthouse-home.jpg)
-![picture of github link highlighted](documentation/lighthouse-cv.jpg)
-![picture of github link highlighted](documentation/lighthouse-feedback.jpg)
+![picture of index lighthouse](documentation/lighthouse-index.jpg)
+![picture of cv lighthouse](documentation/lighthouse-cv.jpg)
+![picture of feedback lighthouse](documentation/lighthouse-feedback.jpg)
+![picture of skills lighthouse](documentation/lighthouse-skills.jpg)
+![picture of contact lighthouse](documentation/lighthouse-contact.jpg)
 
 ## Deployment
 
@@ -164,6 +179,8 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 * The code for the download button was inspired by [Kode youtube video.](https://www.youtube.com/watch?v=mwqz0TOSKI8)
 
 * The code to stop the hover feature on non hoverable devices was inspired by [Kevin Powells](https://www.youtube.com/watch?v=uuluAyw9AI0&t=347s) youtube video.
+
+* The code for the mailto syntax was inspired by [W3 Shools](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto)
 
 ### Media
 * The Image for the feedback form was taken from [Pixelbay.](https://pixabay.com/illustrations/fax-white-male-3d-model-isolated-1889009/)
