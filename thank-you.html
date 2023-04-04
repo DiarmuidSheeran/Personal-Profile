@@ -73,24 +73,16 @@
     </section>
 
     <section>
-      <div id="form-container">
-        <h2>Contact Me by Email</h2>
-            <form action="mailto:dssheeran@outlook.com" method="post" enctype="text/plain" id="form">
-              <label for="fname">First Name:<br></label>
-              <input type="text" id="fname" name="fname" placeholder="Your first name.." required>
-
-              <label for="lname"><br>Last Name:<br></label>
-              <input type="text" id="lname" name="lname" placeholder="Your Last name.." required>
-      
-              <label for="message"><br><br>Message:</label>
-              <textarea id="message" name="message" placeholder="Write something.." required minlength="20"></textarea>
-      
-              <input type="submit" value="Submit">
-
-              <input type="reset" value="Clear">
-            </form>
-
-      </div>
+        <div id="thank-you">
+            <h1>Thank you for submitting the form!</h1>
+            <p>This window will close in 3 seconds.</p>
+        </div>
+        
+        <script>
+          setTimeout(function() {
+            window.close();
+          }, 3000);
+        </script>
     </section>
 
     <footer>
