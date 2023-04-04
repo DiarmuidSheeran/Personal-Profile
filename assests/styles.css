@@ -1,742 +1,579 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald&family=Pacifico&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;
+700&family=Oswald&family=Pacifico&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     border: none;
 }
-
-body{
-    font-family: lato, sans-serif;
-    background-color: #000000;
-    color: #ffa500;
-    height: 100%;
+ body{
+     font-family: lato, sans-serif;
+     background-color: #000000;
+     color: #ffa500;
+     height: 100%;
 }
-
-h1 {
-    font-family: oswald, sans-serif;
-    color: #add8e6;
+ h1 {
+     font-family: oswald, sans-serif;
+     color: #add8e6;
 }
-
-h2 {
-    font-family: oswald, sans-serif;
-    color: #add8e6;
+ h2 {
+     font-family: oswald, sans-serif;
+     color: #add8e6;
 }
-
-li {
-    font-family: oswald,sans-serif;
+ li {
+     font-family: oswald,sans-serif;
 }
-
-a {
-    color: #add8e6;
-    text-decoration: none;
-
+ a {
+     color: #add8e6;
+     text-decoration: none;
 }
-
 /*---------------Header (logo) style -----------------*/
-
-.logo-container {
-    border: solid #ffa500 5px;
-    border-radius: 20px;
-    margin-top: 5px;
-    text-align: center;
-    font-size: 200%;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    background-color: #000000;
-
+ .logo-container {
+     border: solid #ffa500 5px;
+     border-radius: 20px;
+     margin-top: 5px;
+     text-align: center;
+     font-size: 200%;
+     letter-spacing: 3px;
+     text-transform: uppercase;
+     background-color: #000000;
 }
-
-.logo-container a {
-    text-decoration: none;
+ .logo-container a {
+     text-decoration: none;
 }
-
 /*---------------Navigation bar style ---------------*/
-
-.nav-bar-container {
-    margin-top: 5px;
-    font-size: 200%;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
+ .nav-bar-container {
+     margin-top: 5px;
+     font-size: 200%;
+     letter-spacing: 3px;
+     text-transform: uppercase;
+     display: flex;
+     justify-content: center;
 }
-
-.nav-bar-container a {
-    text-decoration: none;
-   
+ .nav-bar-container a {
+     text-decoration: none;
 }
-
-
-
-.nav-bar-container li {
-    letter-spacing: 3px;
-    list-style-type: none;
-    padding-right: 20px;
-    border: solid #ffa500 5px;
-    border-radius: 20px;
-    padding-left: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    float: left;
-    background-color: #000000;
+ .nav-bar-container li {
+     letter-spacing: 3px;
+     list-style-type: none;
+     padding-right: 20px;
+     border: solid #ffa500 5px;
+     border-radius: 20px;
+     padding-left: 20px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     float: left;
+     background-color: #000000;
 }
-
-.nav-bar-container li:hover {
-    border: solid #add8e6 5px;
-    background-color: #ffa500;
+ .nav-bar-container li:hover {
+     border: solid #add8e6 5px;
+     background-color: #ffa500;
 }
-
 /*-----------Second nav bar container---------------*/
-
-.nav-bar2-container {
-    margin-top: 5px;
-    font-size: 200%;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
+ .nav-bar2-container {
+     margin-top: 5px;
+     font-size: 200%;
+     letter-spacing: 3px;
+     text-transform: uppercase;
+     display: flex;
+     justify-content: center;
 }
-
-.nav-bar2-container a {
-    text-decoration: none;
-   
+ .nav-bar2-container a {
+     text-decoration: none;
 }
-
-
-
-.nav-bar2-container li {
-    letter-spacing: 3px;
-    list-style-type: none;
-    padding-right: 20px;
-    border: solid #ffa500 5px;
-    border-radius: 20px;
-    padding-left: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    float: left;
-    background-color: #000000;
+ .nav-bar2-container li {
+     letter-spacing: 3px;
+     list-style-type: none;
+     padding-right: 20px;
+     border: solid #ffa500 5px;
+     border-radius: 20px;
+     padding-left: 20px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     float: left;
+     background-color: #000000;
 }
-
-.nav-bar2-container li:hover {
-    border: solid #add8e6 5px;
-    background-color: #ffa500;
+ .nav-bar2-container li:hover {
+     border: solid #add8e6 5px;
+     background-color: #ffa500;
 }
-
 /*----------------Main Section style----------------*/
-
-.main-section-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 5px;
-    border-radius: 20px;
-    text-align: center;
-    
+ .main-section-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin-top: 5px;
+     border-radius: 20px;
+     text-align: center;
 }
-
-.linkedin {
-    width: 33%;
-    margin-top: 210px;
-    text-transform: uppercase;
+ .linkedin {
+     width: 33%;
+     margin-top: 210px;
+     text-transform: uppercase;
 }
-
-.linkedin h2 {
-    font-size: 300%;
+ .linkedin h2 {
+     font-size: 300%;
 }
-
-.linkedin p {
-    font-weight: bold;
-    color: #ffa500;
+ .linkedin p {
+     font-weight: bold;
+     color: #ffa500;
 }
-
-@media (hover: hover) {
-    .linkedin:hover {
-        transition: width 2s, height 4s;
-        width: 50%;
-        height: 50%;
-        border: solid #FFFFFF 2px;
-        border-radius: 5%;
-        background-color: #ffa500;
-        font-size: 100%;
+ @media (hover: hover) {
+     .linkedin:hover {
+         transition: width 2s, height 4s;
+         width: 50%;
+         height: 50%;
+         border: solid #FFFFFF 2px;
+         border-radius: 5%;
+         background-color: #ffa500;
+         font-size: 100%;
     }
 }
-
-@media (hover: hover) {
-    .linkedin:hover p {
-        color: #000000;
-        font-weight: bold;
-    } 
-}
-
-
-
-#portrait {
-    width: 400px;
-    height: 400px;
-    border: solid #ffa500 5px;
-    border-radius: 200px;
-    object-fit: cover;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.github {
-    width: 33%;
-    margin-top: 210px; 
-    text-transform: uppercase;
-}
-
-.github h2 {
-    font-size: 300%;
-}
-
-.github p {
-    font-weight: bold;
-    color: #ffa500;
-}
-
-@media (hover: hover) {
-
-    .github:hover {
-        transition: width 2s, height 4s;
-        width: 50%;
-        height: 50%;
-        border: solid #FFFFFF 2px;
-        border-radius: 5%;
-        background-color: #ffa500;
-        font-size: 100%;
+ @media (hover: hover) {
+     .linkedin:hover p {
+         color: #000000;
+         font-weight: bold;
     }
 }
-
-@media (hover: hover) {
-
-    .github:hover p {
-        color: #000000;
-        font-weight: bold;
+ #portrait {
+     width: 400px;
+     height: 400px;
+     border: solid #ffa500 5px;
+     border-radius: 200px;
+     object-fit: cover;
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+ .github {
+     width: 33%;
+     margin-top: 210px;
+     text-transform: uppercase;
+}
+ .github h2 {
+     font-size: 300%;
+}
+ .github p {
+     font-weight: bold;
+     color: #ffa500;
+}
+ @media (hover: hover) {
+     .github:hover {
+         transition: width 2s, height 4s;
+         width: 50%;
+         height: 50%;
+         border: solid #FFFFFF 2px;
+         border-radius: 5%;
+         background-color: #ffa500;
+         font-size: 100%;
     }
 }
-
+ @media (hover: hover) {
+     .github:hover p {
+         color: #000000;
+         font-weight: bold;
+    }
+}
 /*---------------about me style-----------------*/
-
-#about-me-section {
-    text-align: center;
-    margin-left: 16.5%;
-    margin-right: 16.5%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+ #about-me-section {
+     text-align: center;
+     margin-left: 16.5%;
+     margin-right: 16.5%;
+     padding-top: 50px;
+     padding-bottom: 50px;
 }
-
-#about-me h2{
-    font-size: 400%;
-    text-transform: uppercase;
-    color: #000000;
+ #about-me h2{
+     font-size: 400%;
+     text-transform: uppercase;
+     color: #000000;
 }
-
-#about-me p{
-    font-size: 150%;
-    padding-bottom: 20px;
+ #about-me p{
+     font-size: 150%;
+     padding-bottom: 20px;
 }
-
-#about-me-section {
-    
-    border: solid #FFFFFF 2px;
-    border-radius: 5%;
-    background-color: #ffa500;
-    color: #000000;
-    font-weight: bolder;
-
-    animation: rotate;
-    animation-duration: 2s;
-    
+ #about-me-section {
+     border: solid #FFFFFF 2px;
+     border-radius: 5%;
+     background-color: #ffa500;
+     color: #000000;
+     font-weight: bolder;
+     animation: rotate;
+     animation-duration: 2s;
 }
-
-@keyframes rotate {
-    from {
-        transform: translate3d(0, -200%, 0);  
+ @keyframes rotate {
+     from {
+         transform: translate3d(0, -200%, 0);
     }
-
-    80% {
-        transform: rotateZ(360deg);
+     80% {
+         transform: rotateZ(360deg);
     }
-
-    to {
-        transform-origin: 0%;
+     to {
+         transform-origin: 0%;
     }
-    
 }
-
-#about-me-section:hover h2{
-    color: #000000;
+ #about-me-section:hover h2{
+     color: #000000;
 }
-
 /*------------------download button---------------*/
-
-#download {
-    text-align: center;
-    margin-left: 16.5%;
-    margin-right: 16.5%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+ #download {
+     text-align: center;
+     margin-left: 16.5%;
+     margin-right: 16.5%;
+     padding-top: 50px;
+     padding-bottom: 50px;
 }
-
-#download-heading {
-    font-size: 300%;
-    text-transform: uppercase;
+ #download-heading {
+     font-size: 300%;
+     text-transform: uppercase;
 }
-
-#download-button {
-    color: black;
-    text-transform: uppercase;
-    font-size: 300%;
-    border: solid #FFFFFF 0px;
-    border-radius: 200px;
-    background-color: #ffa500;
+ #download-button {
+     color: black;
+     text-transform: uppercase;
+     font-size: 300%;
+     border: solid #FFFFFF 0px;
+     border-radius: 200px;
+     background-color: #ffa500;
 }
-
-#download-button:hover {
-    border: solid #ffa500 10px;
-    border-radius: 200px;
-    border-left-width: 5px;
-    border-right-width: 5px;
-    background-color: #FFFFFF;
-    cursor: pointer;
-    color: #add8e6;
-    
-    
+ #download-button:hover {
+     border: solid #ffa500 10px;
+     border-radius: 200px;
+     border-left-width: 5px;
+     border-right-width: 5px;
+     background-color: #FFFFFF;
+     cursor: pointer;
+     color: #add8e6;
 }
-
 /*------------Thank you Style-------------*/
-
-#thank-you-section {
-    text-align: center;
-    margin-left: 16.5%;
-    margin-right: 16.5%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+ #thank-you-section {
+     text-align: center;
+     margin-left: 16.5%;
+     margin-right: 16.5%;
+     padding-top: 50px;
+     padding-bottom: 50px;
 }
-
-#thank-you h2{
-    font-size: 400%;
-    text-transform: uppercase;
-    color: #000000;
+ #thank-you h2{
+     font-size: 400%;
+     text-transform: uppercase;
+     color: #000000;
 }
-
-#thank-you p{
-    font-size: 150%;
-    padding-bottom: 20px;
+ #thank-you p{
+     font-size: 150%;
+     padding-bottom: 20px;
 }
-
-#thank-you-section {
-    
-    border: solid #FFFFFF 2px;
-    border-radius: 5%;
-    background-color: #ffa500;
-    color: #000000;
-    font-weight: bolder;
-
-    animation: slide;
-    animation-duration: 2s;
-    
+ #thank-you-section {
+     border: solid #FFFFFF 2px;
+     border-radius: 5%;
+     background-color: #ffa500;
+     color: #000000;
+     font-weight: bolder;
+     animation: slide;
+     animation-duration: 2s;
 }
-
-@keyframes slide {
-    from {
-        transform: translate3d(200%, 0, 0);  
+ @keyframes slide {
+     from {
+         transform: translate3d(200%, 0, 0);
     }
-
-    to {
-        transform-origin: 0%;
+     to {
+         transform-origin: 0%;
     }
-    
 }
-
-#thank-you-section:hover h2{
-    color: #000000;
+ #thank-you-section:hover h2{
+     color: #000000;
 }
-
 /*--------form style-------------*/
-
-#form-container {
-  padding: 10px;
-  border: solid #ffa500 10px;
-  border-radius: 20px;
-  margin-left: 16.5%;
-  margin-right: 16.5%;
-
-  color: #000000;
-  font-weight: bold;
-
+ #form-container {
+     padding: 10px;
+     border: solid #ffa500 10px;
+     border-radius: 20px;
+     margin-left: 16.5%;
+     margin-right: 16.5%;
+     color: #000000;
+     font-weight: bold;
 }
-
-#form-container h2 {
-    font-size: 200%;
+ #form-container h2 {
+     font-size: 200%;
 }
-
-form p {
-    color: #add8e6;
+ form p {
+     color: #add8e6;
 }
-
-input [type=text], select, textarea {
-    width: 100%;
-    padding: 10px;
-    border: 5px solid #ffa500;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    
+ input [type=text], select, textarea {
+     width: 100%;
+     padding: 10px;
+     border: 5px solid #ffa500;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
 }
-
-input[type="radio"] {
-    width: auto;      
+ input[type="radio"] {
+     width: auto;
 }
-
-
-input[type=submit] {
-    width: 200px;
-    color: #000000;
-    text-transform: uppercase;
-    font-size: 100%;
-    border-radius: 200px;
-    background-color: #ffa500;
-    font-weight: bold;
+ input[type=submit] {
+     width: 200px;
+     color: #000000;
+     text-transform: uppercase;
+     font-size: 100%;
+     border-radius: 200px;
+     background-color: #ffa500;
+     font-weight: bold;
 }
-
-input[type=submit]:hover {
-    border: solid #ffa500 5px;
-    border-radius: 100px;
-    background-color: #FFFFFF;
-    cursor: pointer;
-    color: #add8e6;
+ input[type=submit]:hover {
+     border: solid #ffa500 5px;
+     border-radius: 100px;
+     background-color: #FFFFFF;
+     cursor: pointer;
+     color: #add8e6;
 }
-
-input[type=reset] {
-    width: 200px;
-    color: #000000;
-    text-transform: uppercase;
-    font-size: 100%;
-    border-radius: 200px;
-    background-color: #ffa500;
-    font-weight: bold;
+ input[type=reset] {
+     width: 200px;
+     color: #000000;
+     text-transform: uppercase;
+     font-size: 100%;
+     border-radius: 200px;
+     background-color: #ffa500;
+     font-weight: bold;
 }
-
-input[type=reset]:hover {
-    border: solid #ffa500 5px;
-    border-radius: 100px;
-    background-color: #FFFFFF;
-    cursor: pointer;
-    color: #add8e6;
+ input[type=reset]:hover {
+     border: solid #ffa500 5px;
+     border-radius: 100px;
+     background-color: #FFFFFF;
+     cursor: pointer;
+     color: #add8e6;
 }
-
-label {
-    font-weight: bold;
-    color: #add8e6
+ label {
+     font-weight: bold;
+     color: #add8e6 
 }
-input {
-    width: 400px;
-    border: solid #ffa500 5px;
-    border-radius: 4px;
+ input {
+     width: 400px;
+     border: solid #ffa500 5px;
+     border-radius: 4px;
 }
-
 /*---------------Skills section---------------*/
-
-#skill-section {
-    text-align: center;
-    margin-left: 16.5%;
-    margin-right: 16.5%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+ #skill-section {
+     text-align: center;
+     margin-left: 16.5%;
+     margin-right: 16.5%;
+     padding-top: 50px;
+     padding-bottom: 50px;
 }
-
-#skill h2{
-    font-size: 300%;
-    text-transform: uppercase;
-    color: #000000;
+ #skill h2{
+     font-size: 300%;
+     text-transform: uppercase;
+     color: #000000;
 }
-
-#skill-section {
-    
-    border: solid #FFFFFF 2px;
-    border-radius: 5%;
-    background-color: #ffa500;
-    color: #000000;
-    font-weight: bolder;
-    
+ #skill-section {
+     border: solid #FFFFFF 2px;
+     border-radius: 5%;
+     background-color: #ffa500;
+     color: #000000;
+     font-weight: bolder;
 }
-
-
 /*-----------footer style-----------------*/
-
-.footer-container {
-    border: solid #ffa500 5px;
-    border-radius: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-size: 200%;
-    letter-spacing: 3px;
-    padding-bottom: 50px;
-    padding-top: 50px; 
+ .footer-container {
+     border: solid #ffa500 5px;
+     border-radius: 20px;
+     margin-top: 10px;
+     text-align: center;
+     font-size: 200%;
+     letter-spacing: 3px;
+     padding-bottom: 50px;
+     padding-top: 50px;
 }
-
-.footer-container h1 {
-    font-size: 100%;
-    color: #ffa500;
+ .footer-container h1 {
+     font-size: 100%;
+     color: #ffa500;
 }
-
-.footer-list {
-    display: flex;
-    justify-content: center;
+ .footer-list {
+     display: flex;
+     justify-content: center;
 }
-
-.footer-list li{
-    float: left;
-    list-style-type: none;  
+ .footer-list li{
+     float: left;
+     list-style-type: none;
 }
-
-.footer-list li a {
-    display: block;
-    padding: 14px 16px;
-
+ .footer-list li a {
+     display: block;
+     padding: 14px 16px;
 }
-
-
-
 /*-----------Tablet device responsivenes----------*/
-
-@media screen and (max-width: 900px) {
-    
-    .logo-container {
-        text-align: center;
-        font-size: 140%;
-        letter-spacing: 1px;
+ @media screen and (max-width: 900px) {
+     .logo-container {
+         text-align: center;
+         font-size: 140%;
+         letter-spacing: 1px;
     }
-
-    .nav-bar-container {
-        font-size: 100%;
-        letter-spacing: 1px;
+     .nav-bar-container {
+         font-size: 100%;
+         letter-spacing: 1px;
     }
-
-    .nav-bar2-container {
-        font-size: 100%;
-        letter-spacing: 1px;
+     .nav-bar2-container {
+         font-size: 100%;
+         letter-spacing: 1px;
     }
-
-    .main-section-container {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        
+     .main-section-container {
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         text-align: center;
     }
-
-    .linkedin {
-        text-align: center;
-        margin-top: 10px;
-        width: 100%;
+     .linkedin {
+         text-align: center;
+         margin-top: 10px;
+         width: 100%;
     }
-
-    .linkedin h2 {
-        font-size: 150%;
+     .linkedin h2 {
+         font-size: 150%;
     }
-
-    .github {
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding-bottom: 10px;
-        width: 100%;
+     .github {
+         text-align: center;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         padding-bottom: 10px;
+         width: 100%;
     }
-    
-    .github h2 {
-        font-size: 150%;
+     .github h2 {
+         font-size: 150%;
     }
-
-    #portrait {
-        width: 300px;
-        height: 300px;
-        border-radius: 150px;
-        margin-top: 25px;
-
+     #portrait {
+         width: 300px;
+         height: 300px;
+         border-radius: 150px;
+         margin-top: 25px;
     }
-
-    #about-me-section {
-        margin-left: 5%;
-        margin-right: 5px;
-        padding-top: 0px;
+     #about-me-section {
+         margin-left: 5%;
+         margin-right: 5px;
+         padding-top: 0px;
     }
-    
-    #about-me h2{
-        font-size: 200%;
+     #about-me h2{
+         font-size: 200%;
     }
-    
-    #about-me p{
-        font-size: 100%;
+     #about-me p{
+         font-size: 100%;
     }
-
-    #skill h2{
-        font-size: 150%;
+     #skill h2{
+         font-size: 150%;
     }
-
-    .footer-container {
-        border: solid #add8e6 5px;
-        margin-top: 5px;
-        font-size: 100%;
-        padding-bottom: 25px;
-        padding-top: 25px; 
+     .footer-container {
+         border: solid #add8e6 5px;
+         margin-top: 5px;
+         font-size: 100%;
+         padding-bottom: 25px;
+         padding-top: 25px;
     }
-    
-    .footer-container h2 {
-        font-size: 100%;
+     .footer-container h2 {
+         font-size: 100%;
     }
-    
-    .footer-list {
-        flex-wrap: wrap;
+     .footer-list {
+         flex-wrap: wrap;
     }
-
-    #download {
-        margin-left: 5%;
-        margin-right: 5%;
+     #download {
+         margin-left: 5%;
+         margin-right: 5%;
     }
-    
-    #download-heading {
-        font-size: 150%;
+     #download-heading {
+         font-size: 150%;
     }
-
-    input {
-        width: 70%;
+     input {
+         width: 70%;
     }
-
-    input[type=submit] {
-        width: 100px;
+     input[type=submit] {
+         width: 100px;
     }
-
-    input[type=reset] {
-        width: 100px;
+     input[type=reset] {
+         width: 100px;
     }
-
-    @keyframes rotate {
-        from {
-            transform: translate3d(0, -200%, 0);  
+     @keyframes rotate {
+         from {
+             transform: translate3d(0, -200%, 0);
         }
-
-        to {
-            transform-origin: 0%;
+         to {
+             transform-origin: 0%;
         }
-        
     }
-
-    .chart {
-        width: 100%;
+     .chart {
+         width: 100%;
     }
 }
-
-@media screen and (max-width: 450px) {
-    .nav-bar-container {
-        font-size: 65%;
-        letter-spacing: 1px;
+ @media screen and (max-width: 450px) {
+     .nav-bar-container {
+         font-size: 65%;
+         letter-spacing: 1px;
     }
-
-    .nav-bar2-container {
-        font-size: 65%;
-        letter-spacing: 1px;
+     .nav-bar2-container {
+         font-size: 65%;
+         letter-spacing: 1px;
     }
-
-    .chart {
-        width: 100%;
+     .chart {
+         width: 100%;
     }
-
-    #thank-you-section {
-    
-        animation: slide;
-        animation-duration: 2s;
-        
+     #thank-you-section {
+         animation: slide;
+         animation-duration: 2s;
     }
-    
-    @keyframes slide {
-        from {
-            transform: translate3d(0, 0, 100%);  
+     @keyframes slide {
+         from {
+             transform: translate3d(0, 0, 100%);
         }
-    
-        to {
-            transform-origin: 0%;
+         to {
+             transform-origin: 0%;
         }
-        
     }
-    
-    #thank-you-section:hover h2{
-        color: #000000;
+     #thank-you-section:hover h2{
+         color: #000000;
     }
 }
-
 /*-----------Mobile device responsivenes----------*/
-
-@media screen and (max-width: 355px) {
-    
-    .logo-container {
-        text-align: center;
-        font-size: 100%;
-        letter-spacing: 1px;
+ @media screen and (max-width: 355px) {
+     .logo-container {
+         text-align: center;
+         font-size: 100%;
+         letter-spacing: 1px;
     }
-
-    .nav-bar-container {
-        font-size: 55%;
-        letter-spacing: 1px;
+     .nav-bar-container {
+         font-size: 55%;
+         letter-spacing: 1px;
     }
-
-    .nav-bar2-container {
-        font-size: 55%;
-        letter-spacing: 1px;
+     .nav-bar2-container {
+         font-size: 55%;
+         letter-spacing: 1px;
     }
-
-    @keyframes rotate {
-        from {
-            transform: translate3d(0, -200%, 0);  
+     @keyframes rotate {
+         from {
+             transform: translate3d(0, -200%, 0);
         }
-
-        to {
-            transform-origin: 0%;
+         to {
+             transform-origin: 0%;
         }
-        
     }
-
-    .chart {
-        width: 100%;
+     .chart {
+         width: 100%;
     }
 }
-
 /*-----------Smaller device responsivenes----------*/
-
-@media screen and (max-width: 330px) {
-    
-    .logo-container {
-        text-align: center;
-        font-size: 100%;
-        letter-spacing: 1px;
+ @media screen and (max-width: 330px) {
+     .logo-container {
+         text-align: center;
+         font-size: 100%;
+         letter-spacing: 1px;
     }
-
-    .nav-bar-container {
-        font-size: 210%;
-        letter-spacing: 0px;
+     .nav-bar-container {
+         font-size: 210%;
+         letter-spacing: 0px;
     }
-
-    .nav-bar2-container {
-        font-size: 210%;
-        letter-spacing: 0px;
+     .nav-bar2-container {
+         font-size: 210%;
+         letter-spacing: 0px;
     }
-
-    @keyframes rotate {
-        from {
-            transform: translate3d(0, -200%, 0);  
+     @keyframes rotate {
+         from {
+             transform: translate3d(0, -200%, 0);
         }
-    
-        to {
-            transform-origin: 0%;
+         to {
+             transform-origin: 0%;
         }
-        
     }
-
-    .chart {
-        width: 100%;
+     .chart {
+         width: 100%;
     }
 }
+
