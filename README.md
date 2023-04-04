@@ -18,6 +18,8 @@ It will also give the user an oppertunity to leave feedback to help me improve m
   * [Skills](#Skills)
   * [Transform and Transition Properties](#Transform-and-Transition-Properties)
 
+* [Wireframes](#Wireframes)
+
 * [Testing](#Testing)
 
 * [Bugs](#Bugs)
@@ -125,6 +127,9 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 * Click the gif below for a demonstration.
 ![picture of the loading page in gif format on loop](documentation/loading-page.gif)
 
+## Wireframes
+
+![picture of the loading page in gif format on loop](documentation/wireframes.jpg)
 
 
 ## Testing
