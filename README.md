@@ -150,7 +150,7 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 
 
 ## Credits
-### Contet
+### Content
 * Some of the HTML and CSS used in the general layout of the web page was taken from the [Love Running](https://diarmuidsheeran.github.io/love-running/) project.
 
 * The flex direction syntax along with some other CSS styling were taken from [Code with Ania KubówCode's](https://www.youtube.com/watch?v=Xm4BObh4MhI&t=8897s) youtube video.
