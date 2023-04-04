@@ -15,6 +15,7 @@ It will also give the user an oppertunity to leave feedback to help me improve m
   * [Download Button](#Download-Button)
   * [Feedback Form](#Feedback-Form)
   * [Contact Form](#Contact-Form)
+  * [Skills](#Skills)
   * [Transform and Transition Properties](#Transform-and-Transition-Properties)
 
 * [Testing](#Testing)
@@ -41,21 +42,25 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 * Positioned in the center at the top of the page in the header: Diarmuid Sheeran provides a link to the home page.
 * This Logo also outlines to the user my name and what languages i am currently studying with the additions of the font awesome symbols of HTML, CSS, Javascript and Python.
 * Underneath that is a navigation bar positioned in the center of the page with three seperate links to the home page, a cv download page and a feedback form page.
-![picture of header navigation](documentation/header-navigation.jpg)
+
+![picture of header navigation](documentation/navigation.jpg)
 
 * The footer at the bottom of the page contains all links provided in the website.
   This allows users to navigate without having to return to the header of the page.
-* The Footer also contains my email address allowing interested user a way of contacting me.       
-![picture of footer navigation](documentation/footer-navigation.jpg)
+* The Footer also contains my email address allowing interested user a way of contacting me.  
+
+![picture of footer navigation](documentation/footer.jpg)
 
 * When viewing the site on a desktop monitor links are provided on both the left and right of the main section centered either side of the main section image.
 
     These Links will open up either my Github page or my Linkedin Page in a new tab.
+
 ![picture of main section navigation](documentation/main-section-navigation.jpg)
 
 * When viewing the images on a mobile device a justify content wrap feature was used to position the contnet for the main section on top of one another for a more responsive design.
 
 ![picture of main section navigation used on a mobile device](documentation/mobile-device-navigation.jpg)
+
 * All navigation is clealry named sized and styled for ease of use while navigating throught the site.
 
 
@@ -65,7 +70,9 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 * I added a download link to a pdf file i saved in a folder called data.
 * The download button was made large to emphasise the purpose of the download page and entice the user to download a copy of my CV.
 * The download button changes it's properties when hovered over and the mouse cursor is changed to a pointer.
+
 ![picture of download button](documentation/download-button.jpg)
+
 ![picture of download button highlighted](documentation/download-button-highlighted.jpg)
 
 ### Feedback Form
@@ -75,10 +82,16 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 * There are 3 standered text input fields, a radio input field and a larger text area field
 * There is a submit button underneath the input fields that allows the user to submit the data they have entered.
 * There is also a reset button to allow a user to reset the form.
-* When the submit button and the reset button is hovered over its properties change and the mouse changes to a pointer.
+
 ![picture of feedback form](documentation/feedback.jpg)
 
+* When the submit button and the reset button is hovered over its properties change and the mouse changes to a pointer.
+
 ![picture of submit button highlighted](documentation/feedback-hover.jpg)
+
+* When the user submits their feedback they are sent to seperate web page with a thank you message that closes after 3 seconds
+
+![picture of thank you page](documentation/thank-you.jpg)
 
 ### Contact Form
 
@@ -86,7 +99,16 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 * When the user hits the submit button the user is re-directed to there email address to send the information they have entered directly to my email.
 * This is achieved by using the action mailto followed by my email address in the form.
 * When the submit and clear buttons are hovered over there properties change just like the feedback form.
-![picture of feedback form](documentation/contact.jpg)
+
+![picture of contact form](documentation/contact.jpg)
+
+### Skills
+
+* The skills page pie chart allows a user to see a visual repersentation of the knowledge I currently have in each coding languge to date.
+* When each segment is hovered over it shows the user the percentage of knowledge I have in that respective field.
+
+![picture of skills pie chart form](documentation/skills.jpg)
+
 
 
 ### Transform and Transition Properties
@@ -180,7 +202,11 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 
 * The code to stop the hover feature on non hoverable devices was inspired by [Kevin Powells](https://www.youtube.com/watch?v=uuluAyw9AI0&t=347s) youtube video.
 
-* The code for the mailto syntax was inspired by [W3 Shools](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto)
+* The code for the mailto syntax was inspired by [W3 Schools](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto)
+
+* The script used to close the thank you page was inspired by [W3 Schools](https://www.w3schools.com/jsref/met_win_settimeout.asp)
+
+* The script for the pie chart was taken from [Google Charts](https://developers-dot-devsite-v2-prod.appspot.com/chart/interactive/docs/gallery/piechart.html)
 
 ### Media
 * The Image for the feedback form was taken from [Pixelbay.](https://pixabay.com/illustrations/fax-white-male-3d-model-isolated-1889009/)
