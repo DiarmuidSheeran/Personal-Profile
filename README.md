@@ -10,6 +10,29 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 ![picture of Website on differnet devices](documentation/responsive.jpg)
 
 ## Contents
+* [Features](#Features)
+  * [Navigation](#Navigation)
+  * [Download Button](#Download-Button)
+  * [Feedback Form](#Feedback-Form)
+  * [Transform and Transition Properties](#Transform-and-Transition-Properties)
+
+* [Testing](#Testing)
+
+* [Bugs](#Bugs)
+  * [Solved Bugs](#Solved-Bugs)
+
+* [Validator Testing](#Validator-Testing)
+
+* [Accessibility](#Accessibility)
+
+* [Deployment](#Deployment)
+
+* [Credits](#Credits)
+  * [Content](#Content)
+  * [Media](#Media)
+
+
+
 
 
 ## Features
