@@ -215,7 +215,7 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 
 * The image for the cv download page was taken from [Pixelbay.](https://pixabay.com/illustrations/globe-space-galaxy-data-technology-6858907/)
 
-The image for the contact page was taken from [Pixelbay.](https://pixabay.com/illustrations/globe-space-galaxy-data-technology-6858907/)
+The image for the contact page was taken from [Pexels.](https://www.pexels.com/photo/vintage-typewriter-with-white-paper-4106621/)
 
 The image for the skills page was taken from [Pixelbay.](https://pixabay.com/photos/code-html-digital-coding-web-1076536/)
 
