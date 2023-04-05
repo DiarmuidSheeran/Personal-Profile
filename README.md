@@ -24,6 +24,7 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 
 * [Bugs](#Bugs)
   * [Solved Bugs](#Solved-Bugs)
+  * [Unsolved Bugs](#Unsolved-Bugs)
 
 * [Validator Testing](#Validator-Testing)
 
