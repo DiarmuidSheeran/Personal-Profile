@@ -492,6 +492,18 @@
      .chart {
          width: 100%;
     }
+     #thank-you-section {
+        margin-left: 5%;
+        margin-right: 5px;
+        padding-top: 0px;
+    }
+      #thank-you h2{
+        font-size: 200%;
+    }
+      #thankyou p{
+        font-size: 100%;
+    }
+
 }
  @media screen and (max-width: 450px) {
      .nav-bar-container {
@@ -520,17 +532,6 @@
      #thank-you-section:hover h2{
          color: #000000;
     }
-     #thank-you-section {
-        margin-left: 5%;
-        margin-right: 5px;
-        padding-top: 0px;
-   }
-     #thank-you h2{
-        font-size: 200%;
-   }
-     #thankyou p{
-        font-size: 100%;
-   }
 }
 /*-----------Mobile device responsivenes----------*/
  @media screen and (max-width: 355px) {
