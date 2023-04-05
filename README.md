@@ -3,7 +3,7 @@ This is a personal profile website for me (Diarmuid Sheeran) to showcase some of
 
 The aim of the website is to give the user a brief introduction to what I am currently studying and what I hope to achieve.
 
-It will give the user an oppertunity to download my CV.
+It will give the user an oppertunity to download my CV, fill out a contact form to email me directly and check out my current knowledge of different coding languages.
 
 It will also give the user an oppertunity to leave feedback to help me improve my site.
 
@@ -35,15 +35,11 @@ It will also give the user an oppertunity to leave feedback to help me improve m
   * [Content](#Content)
   * [Media](#Media)
 
-
-
-
-
 ## Features
 ### Navigation
 * Positioned in the center at the top of the page in the header: Diarmuid Sheeran provides a link to the home page.
 * This Logo also outlines to the user my name and what languages i am currently studying with the additions of the font awesome symbols of HTML, CSS, Javascript and Python.
-* Underneath that is a navigation bar positioned in the center of the page with three seperate links to the home page, a cv download page and a feedback form page.
+* Underneath that is a navigation bar positioned in the center of the page with five seperate links to the home page, a cv download page and a feedback form page, a contact me page and a skills page.
 
 ![picture of header navigation](documentation/navigation.jpg)
 
@@ -84,6 +80,7 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 * There are 3 standered text input fields, a radio input field and a larger text area field
 * There is a submit button underneath the input fields that allows the user to submit the data they have entered.
 * There is also a reset button to allow a user to reset the form.
+* The form fields are required to be filled in order to for it to be submitted and the text area must have at least 20 charecters entered into it.
 
 ![picture of feedback form](documentation/feedback.jpg)
 
@@ -139,7 +136,7 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 * I confirmed that the the navigation bars direct the user to the correct destination.
 * I tested the download capabilities of my download link and confirmed that it downloads my CV.
 * I confirmed that the Linkedin and the Github links take the user directly to my respective pages.
-* I have tested the form and confirmed that it takes in inputs and submits it to the Code Institute form dump.
+* I have tested the forms and confirmed that it takes in inputs and submits them to either a thank you page or the users email.
 
 ## Bugs
 
@@ -217,6 +214,10 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 * The Image for the feedback form was taken from [Pixelbay.](https://pixabay.com/illustrations/fax-white-male-3d-model-isolated-1889009/)
 
 * The image for the cv download page was taken from [Pixelbay.](https://pixabay.com/illustrations/globe-space-galaxy-data-technology-6858907/)
+
+The image for the contact page was taken from [Pixelbay.](https://pixabay.com/illustrations/globe-space-galaxy-data-technology-6858907/)
+
+The image for the skills page was taken from [Pixelbay.](https://pixabay.com/photos/code-html-digital-coding-web-1076536/)
 
 * The image on the index page was taken from my own personal gallery.
 
