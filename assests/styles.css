@@ -245,8 +245,8 @@
      text-align: center;
      margin-left: 16.5%;
      margin-right: 16.5%;
-     padding-top: 50px;
-     padding-bottom: 50px;
+     padding-top: 25px;
+     padding-bottom: 25px;
 }
  #thank-you h2{
      font-size: 400%;
@@ -264,7 +264,7 @@
      color: #000000;
      font-weight: bolder;
      animation: slide;
-     animation-duration: 2s;
+     animation-duration: 1s;
 }
  @keyframes slide {
      from {
