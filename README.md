@@ -155,7 +155,7 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 #### Solution:
 * I fixed this by adding the hover:hover syntax to make sure this feature was only availble on devices with the capabilities of hovering.
 
-## Valeiator Testing
+## Validator Testing
 
 * HTML
   * No Issues found on W3C HTML Validator
