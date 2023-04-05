@@ -155,6 +155,9 @@ It will also give the user an oppertunity to leave feedback to help me improve m
 #### Solution:
 * I fixed this by adding the hover:hover syntax to make sure this feature was only availble on devices with the capabilities of hovering.
 
+### Unsolved Bugs
+* On occasion the pie chart can veer out slightly from its container when its size is altered. This can be fixed usualy by a refresh.
+
 ## Validator Testing
 
 * HTML
